@@ -15,7 +15,7 @@ public class Deserial {
         Student student= (Student) stream.readObject();
 
         System.out.println(student);
-
+        System.out.println(">>>>>>>>>>>>>>>>");
 
 
 
