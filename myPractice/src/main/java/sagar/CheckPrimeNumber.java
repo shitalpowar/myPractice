@@ -6,6 +6,8 @@ public class CheckPrimeNumber {
 
         System.out.println("we are checking prime number");
 
+        System.out.println("we are checking pull");
+
     }
 
     public static boolean checkPrimeNumber(Integer n) {
