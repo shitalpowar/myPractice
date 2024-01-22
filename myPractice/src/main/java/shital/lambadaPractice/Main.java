@@ -13,15 +13,16 @@ public class Main {
         InterMultiply multiply1 = new InterMultiply() {
             @Override
             public int multiply(int a, int b) {
-                return a * b;
+                return a*b;
             }
         };
-        System.out.println(multiply1.multiply(3,4));
+        multiply1.multiply(2,4);
 
         System.out.println("using lambda");
 
         InterMultiply multiply2 = ( a, b)-> a*b;
 
         System.out.println(multiply2.multiply(12,2));
+
     }
 }
