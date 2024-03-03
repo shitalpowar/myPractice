@@ -22,6 +22,7 @@ public class TestVotingAge {
         }
         finally{
             System.out.println("voting process ended");
+            System.out.println("we are checking conflict");
         }
     }
 
